@@ -9,12 +9,13 @@ matplotlib
 seaborn
 scipy
 scikit-learn
-tensorflow
+tensorflow 
 wget
 konlpy
 pymongo
 python-mecab-ko
 pyLDAvis
+fastapi
 uvicorn
 jinja2
 python-multipart
