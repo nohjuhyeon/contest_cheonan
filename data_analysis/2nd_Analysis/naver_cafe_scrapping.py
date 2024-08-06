@@ -35,51 +35,46 @@ def content_scrapping(browser):
         content_list = browser.find_elements(by=By.CSS_SELECTOR,value='a.article')
         content_list[i].click()
         time.sleep(1)
+        title = browser.find_element(by=By.CSS_SELECTOR,value='#app > div > div > div.ArticleContentBox > div.article_header > div:nth-child(1) > div > div > h3').text
         try:
-            title = browser.find_element(by=By.CSS_SELECTOR,value='#app > div > div > div.ArticleContentBox > div.article_header > div:nth-child(1) > div > div > h3').text
-            try:
-                contents = browser.find_element(by=By.CSS_SELECTOR,value='div.content.CafeViewer').text
-            except:
-                contents = browser.find_element(by=By.CSS_SELECTOR,value='div.ContentRenderer').text
-            date = browser.find_element(by=By.CSS_SELECTOR,value='span.date').text
-            like_count = browser.find_element(by=By.CSS_SELECTOR,value='#app > div > div > div.ArticleContentBox > div.article_container > div.ReplyBox > div.box_left > div > div > a > em.u_cnt._count').text
-            review_btn_list = browser.find_elements(by=By.CSS_SELECTOR,value='#app > div > div > div.ArticleContentBox > div.article_container > div.CommentBox > div.ArticlePaginate > button')
-            if len(review_btn_list) == 0:
-                review_list = browser.find_elements(by=By.CSS_SELECTOR,value='div > div > div.comment_text_box > p')
-                if len(review_list) != 0:
-                    for j in review_list:
-                        review = j.text
-                        print(title)
-                        print(contents)
-                        print(date)
-                        print(like_count)
-                        print(review)
-                        collection.insert_one({"title": title,"date":date,"contents":contents,'like':like_count,'review':review})
-                else:
+            contents = browser.find_element(by=By.CSS_SELECTOR,value='div.content.CafeViewer').text
+        except:
+            contents = browser.find_element(by=By.CSS_SELECTOR,value='div.ContentRenderer').text
+        date = browser.find_element(by=By.CSS_SELECTOR,value='span.date').text
+        like_count = browser.find_element(by=By.CSS_SELECTOR,value='#app > div > div > div.ArticleContentBox > div.article_container > div.ReplyBox > div.box_left > div > div > a > em.u_cnt._count').text
+        review_btn_list = browser.find_elements(by=By.CSS_SELECTOR,value='#app > div > div > div.ArticleContentBox > div.article_container > div.CommentBox > div.ArticlePaginate > button')
+        if len(review_btn_list) == 0:
+            review_list = browser.find_elements(by=By.CSS_SELECTOR,value='div > div > div.comment_text_box > p')
+            if len(review_list) != 0:
+                for j in review_list:
+                    review = j.text
                     print(title)
                     print(contents)
                     print(date)
                     print(like_count)
-                    collection.insert_one({"title": title,"date":date,"contents":contents,'like':like_count})
-
+                    print(review)
+                    collection.insert_one({"title": title,"date":date,"contents":contents,'like':like_count,'review':review})
             else:
-                for i in review_btn_list:
-                    i.click()
-                    review_list = browser.find_elements(by=By.CSS_SELECTOR,value='div > div > div.comment_text_box > p')
-                    for j in review_list:
-                        review = j.text
-                        print(title)
-                        print(contents)
-                        print(date)
-                        print(like_count)
-                        print(review)
-                        collection.insert_one({"title": title,"date":date,"contents":contents,'like':like_count,'review':review})
-
-        except:
-            pass
-        browser.back()
-        time.sleep(1)
-        browser.switch_to.frame("cafe_main")
+                print(title)
+                print(contents)
+                print(date)
+                print(like_count)
+                collection.insert_one({"title": title,"date":date,"contents":contents,'like':like_count})
+        else:
+            for i in review_btn_list:
+                i.click()
+                review_list = browser.find_elements(by=By.CSS_SELECTOR,value='div > div > div.comment_text_box > p')
+                for j in review_list:
+                    review = j.text
+                    print(title)
+                    print(contents)
+                    print(date)
+                    print(like_count)
+                    print(review)
+                    collection.insert_one({"title": title,"date":date,"contents":contents,'like':like_count,'review':review})
+    browser.back()
+    time.sleep(1)
+    browser.switch_to.frame("cafe_main")
 
 login_path = browser.find_element(by=By.CSS_SELECTOR,value='#gnb_login_button > span.gnb_txt')
 login_path.click()
