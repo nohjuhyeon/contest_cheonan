@@ -4,7 +4,7 @@ mongoClient = MongoClient("mongodb://localhost:27017/")
 # database 연결
 database = mongoClient["contest_cheonan"]
 # collection 작업
-collection = database['baby_care_reaction']
+collection = database['baby_care_contents']
 # insert 작업 진행
 # 크롤링 동작
 from selenium.webdriver.common.by import By
@@ -44,39 +44,12 @@ def content_scrapping(browser):
                     contents = browser.find_element(by=By.CSS_SELECTOR,value='div.ContentRenderer').text
                 date = browser.find_element(by=By.CSS_SELECTOR,value='span.date').text
                 like_count = browser.find_element(by=By.CSS_SELECTOR,value='#app > div > div > div.ArticleContentBox > div.article_container > div.ReplyBox > div.box_left > div > div > a > em.u_cnt._count').text
-                review_btn_list = browser.find_elements(by=By.CSS_SELECTOR,value='#app > div > div > div.ArticleContentBox > div.article_container > div.CommentBox > div.ArticlePaginate > button')
-                if len(review_btn_list) == 0:
-                    review_list = browser.find_elements(by=By.CSS_SELECTOR,value='div > div > div.comment_text_box > p')
-                    if len(review_list) != 0:
-                        for j in review_list:
-                            review = j.text
-                            print(title)
-                            print(contents)
-                            print(date)
-                            print(like_count)
-                            print(review)
-                            collection.insert_one({"title": title,"date":date,"contents":contents,'like':like_count,'review':review})
-                    else:
-                        print(title)
-                        print(contents)
-                        print(date)
-                        print(like_count)
-                        collection.insert_one({"title": title,"date":date,"contents":contents,'like':like_count})
-                else:
-                    for i in review_btn_list:
-                        i.click()
-                        time.sleep(1)
-                        review_list = browser.find_elements(by=By.CSS_SELECTOR,value='div > div > div.comment_text_box > p')
-                        for j in range(len(review_list)):
-                            review_list = browser.find_elements(by=By.CSS_SELECTOR,value='div > div > div.comment_text_box > p')
-                            review = review_list[j].text
-                            print(title)
-                            print(contents)
-                            print(date)
-                            print(like_count)
-                            print(review)
-                            collection.insert_one({"title": title,"date":date,"contents":contents,'like':like_count,'review':review})
-                    pass
+                print(title)
+                print(contents)
+                print(date)
+                print(like_count)
+                collection.insert_one({"title": title,"date":date,"contents":contents,'like':like_count})
+                pass
                 browser.back()
                 time.sleep(1)
                 browser.switch_to.frame("cafe_main")
@@ -124,19 +97,25 @@ search_btn = browser.find_element(by=By.CSS_SELECTOR,value='#main-area > div.sea
 search_btn.click()
 time.sleep(1)
 page_btn_list = browser.find_elements(by=By.CSS_SELECTOR,value='#main-area > div.prev-next > a')
+for k in range(0,len(page_btn_list)):
+    page_btn_list = browser.find_elements(by=By.CSS_SELECTOR,value='#main-area > div.prev-next > a')
+    page_btn_list[k].click()
+    content_scrapping(browser)
+    pass
+next_btn = browser.find_elements(by=By.CSS_SELECTOR,value='#main-area > div.prev-next > a.pgR > span')
 
-content_scrapping(browser)
 while True:
     page_btn_list = browser.find_elements(by=By.CSS_SELECTOR,value='#main-area > div.prev-next > a')
-    for k in range(1,len(page_btn_list)):
+    for k in range(2,len(page_btn_list)):
         page_btn_list = browser.find_elements(by=By.CSS_SELECTOR,value='#main-area > div.prev-next > a')
         page_btn_list[k].click()
         content_scrapping(browser)
+        pass
     next_btn = browser.find_elements(by=By.CSS_SELECTOR,value='#main-area > div.prev-next > a.pgR > span')
     if len(next_btn) == 0:
         break
 
-for k in range(1,len(page_btn_list)):
+for k in range(1,len(page_btn_list)-1):
     page_btn_list = browser.find_elements(by=By.CSS_SELECTOR,value='#main-area > div.prev-next > a')
     page_btn_list[k].click()
     content_scrapping(browser)
