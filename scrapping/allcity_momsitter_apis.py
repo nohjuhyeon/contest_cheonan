@@ -41,12 +41,6 @@ for activity in activity_dict:
         # 요청 데이터 설정
         body = {
             "activityIds": [list(activity.keys())[0]],
-            "location": "충청남도 천안시 동남구 전체",
-            "locationDescription": "충청남도 천안시 서북구 전체",
-            "locationTerm": {"main": "충청남도", "sub": "천안시 서북구", "detail": "전체"},
-            "detail": "전체",
-            "main": "충청남도",
-            "sub": "천안시 서북구",
             "page": page
         }
 
@@ -55,7 +49,7 @@ for activity in activity_dict:
         contents = json.loads(response.content)
 
         # MongoDB 연결
-        collection = dbconnect("momsitter_west")
+        collection = dbconnect("momsitter_all")
         
         # sitters 리스트가 빈 경우 while 루프 종료
         try :
