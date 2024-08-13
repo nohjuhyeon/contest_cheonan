@@ -14,6 +14,15 @@ prefs = {
 
 # Chrome 옵션 설정
 chrome_options = Options()
+# 내 계정 사용 
+chrome_options.add_argument("user-data-dir=/Users/ojisu/Library/Application Support/Google/Chrome/Profile 3")
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage")
+# chrome_options.add_argument("--headless")  # 백그라운드 실행 (필요시)
+chrome_options.add_argument("--disable-gpu")
+chrome_options.add_argument("--enable-logging")
+chrome_options.add_argument("--v=1")
+
 chrome_options.add_experimental_option("prefs", prefs)
 # ChromeDriver 서비스 객체 생성
 service = Service('/usr/local/bin/chromedriver')
