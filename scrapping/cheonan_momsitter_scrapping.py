@@ -49,7 +49,7 @@ def wait_for_element(selector):
 
 # 스크롤을 내리는 함수
 def scroll_down():
-    scrollable_div = browser.find_element(by=By.CSS_SELECTOR, value="#app > div.sc-bkldj.bxvMAK > div.sc-cnOiCc.OPGfA > div > div.listPanel > div.sc-gScZFl.enkkNU > div > div:nth-child(1) > div > div")
+    scrollable_div = browser.find_element(by=By.CSS_SELECTOR, value="#app > div.sc-fmixVB.eMKxob > div> div > div.listPanel > div.sc-gScZFl.enkkNU > div > div:nth-child(1) > div > div")
 
     previous_scroll_height = browser.execute_script("return arguments[0].scrollHeight", scrollable_div)
     browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", scrollable_div)
@@ -82,7 +82,10 @@ def scrape_sitter() :
         # 희망 시급
         wage = sitter.find_element(by=By.CSS_SELECTOR, value="div.basicProfileContainer > div.profileInfo > div:nth-child(2) > p").text
         # 인증내역
-        certinfo = sitter.find_element(by=By.CSS_SELECTOR, value="div.certInfoWrap > div").text
+        try : 
+            certinfo = sitter.find_element(by=By.CSS_SELECTOR, value="div.certInfoWrap > div").text
+        except :
+            certinfo=''
         collection = dbconnect("momsitter_by_type")
         collection.insert_one({"name": name, "age": age, "wage":wage, "certinfo": certinfo})
 
