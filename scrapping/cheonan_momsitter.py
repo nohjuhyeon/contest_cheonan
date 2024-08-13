@@ -14,7 +14,7 @@ headers = {
 
 # 요청 데이터 설정
 data = {
-    "locations": "충청남도",
+    "locations": "경기도 화성시",
 
 }
 
