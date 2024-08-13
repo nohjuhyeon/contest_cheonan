@@ -49,7 +49,7 @@ def wait_for_element(selector):
 
 # 스크롤을 내리는 함수
 def scroll_down():
-    scrollable_div = browser.find_element(by=By.CSS_SELECTOR, value="#app > div.sc-fmixVB.eMKxob > div> div > div.listPanel > div.sc-gScZFl.enkkNU > div > div:nth-child(1) > div > div")
+    scrollable_div = browser.find_element(by=By.CSS_SELECTOR, value=".listPanel")
 
     previous_scroll_height = browser.execute_script("return arguments[0].scrollHeight", scrollable_div)
     browser.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", scrollable_div)
