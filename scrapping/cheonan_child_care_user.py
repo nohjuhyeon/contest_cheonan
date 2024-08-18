@@ -9,7 +9,7 @@ def dbconnect(collection_name):
     collection = db[collection_name]  # 사용할 컬렉션 이름
     return collection
 
-url = "https://apis.data.go.kr/1383000/idis/careGiverServiceService/getCareGiverServiceList?serviceKey=Qa6CXT4r6qEr%2BkQt%2FJx6wJr5MPx45hKNJwNTScoYryT2uGz7GozIqpjBw%2FRMk1uE8l92NU7h89m20sa%2FXHKuaQ%3D%3D&pageNo=1&type=json&numOfRows=100&crtrYmFrom=202001&crtrYmTo=202312&childCareInstNo=C0287"
+url = "https://apis.data.go.kr/1383000/idis/memberService/getMemberList?serviceKey=Qa6CXT4r6qEr%2BkQt%2FJx6wJr5MPx45hKNJwNTScoYryT2uGz7GozIqpjBw%2FRMk1uE8l92NU7h89m20sa%2FXHKuaQ%3D%3D&pageNo=1&type=json&numOfRows=100&crtrYmFrom=202001&crtrYmTo=202312&childCareInstNo=C0287"
 
         # 요청 헤더 설정
         # headers = {
@@ -36,18 +36,21 @@ response = requests.get(url)
 contents = json.loads(response.content)
 contents = contents['response']['body']['items']['item']
         # MongoDB 연결
-collection = dbconnect("child_care_center")
+collection = dbconnect("child_care_user")
 
 for i in contents:
       dict_center = {}
       dict_center['date'] = i['crtrYm']
       dict_center['center_name'] = i['childCareInstNm']
-      dict_center['total_caregivers'] = i['srvcGrSittrCnt']
-      dict_center['part_time_caregivers'] = i['prtmSittrCnt']
-      dict_center['full_time_infant_caregivers'] = i['infntAldySittrCnt']
-      dict_center['comprehensive_caregivers'] = i['pttgthTypeSittrCnt']
-      dict_center['disease_child_caregivers'] = i['ilnsChildSittrCnt']
-      dict_center['institution_linked_caregivers'] = i['instLinkSittrCnt']
+      dict_center['total_members'] = i['whlMbrCnt']
+      dict_center['web_members'] = i['webMbrCnt']
+      dict_center['pending_approval_members'] = i['aprvStdbyMbrCnt']
+      dict_center['regular_members'] = i['rglmbrCnt']
+      dict_center['periodic_regular_members'] = i['prdclRglmbrCnt']
+      dict_center['pending_regular_members'] = i['stdbyRglmbrCnt']
+      dict_center['dormant_members'] = i['drmntMbrCnt']
+      dict_center['new_members'] = i['newMbrCnt']
+      dict_center['new_children'] = i['newChildCnt']
       collection.insert_one(dict_center)
 # # sitters 리스트가 빈 경우 while 루프 종료
 # try :
