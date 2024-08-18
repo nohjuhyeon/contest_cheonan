@@ -9,7 +9,7 @@ def dbconnect(collection_name):
     collection = db[collection_name]  # 사용할 컬렉션 이름
     return collection
 
-url = "https://apis.data.go.kr/1383000/idis/careGiverServiceService/getCareGiverServiceList?serviceKey=Qa6CXT4r6qEr%2BkQt%2FJx6wJr5MPx45hKNJwNTScoYryT2uGz7GozIqpjBw%2FRMk1uE8l92NU7h89m20sa%2FXHKuaQ%3D%3D&pageNo=1&type=json&numOfRows=100&crtrYmFrom=202001&crtrYmTo=202312&childCareInstNo=C0287"
+url = "https://apis.data.go.kr/1383000/idis/aplyService/getAplyList?serviceKey=Qa6CXT4r6qEr%2BkQt%2FJx6wJr5MPx45hKNJwNTScoYryT2uGz7GozIqpjBw%2FRMk1uE8l92NU7h89m20sa%2FXHKuaQ%3D%3D&pageNo=1&type=json&numOfRows=200&crtrYmFrom=202001&crtrYmTo=202312&childCareInstNo=C0287"
 
         # 요청 헤더 설정
         # headers = {
@@ -36,18 +36,26 @@ response = requests.get(url)
 contents = json.loads(response.content)
 contents = contents['response']['body']['items']['item']
         # MongoDB 연결
-collection = dbconnect("child_care_center")
+collection = dbconnect("child_care_apply")
 
 for i in contents:
       dict_center = {}
       dict_center['date'] = i['crtrYm']
       dict_center['center_name'] = i['childCareInstNm']
-      dict_center['total_caregivers'] = i['srvcGrSittrCnt']
-      dict_center['part_time_caregivers'] = i['prtmSittrCnt']
-      dict_center['full_time_infant_caregivers'] = i['infntAldySittrCnt']
-      dict_center['comprehensive_caregivers'] = i['pttgthTypeSittrCnt']
-      dict_center['disease_child_caregivers'] = i['ilnsChildSittrCnt']
-      dict_center['institution_linked_caregivers'] = i['instLinkSittrCnt']
+      dict_center['disease_child'] = i['ilnsSrvcYn']
+      dict_center['care_type'] = i['careDvsnNm']
+      dict_center['service_type'] = i['srvcDvsfctnNm']
+      dict_center['total_applications'] = i['whlAplyNocs']
+      dict_center['linked_applications'] = i['linkAplyNocs']
+      dict_center['linked_applications_type_a'] = i['linkAtypeAplyNocs']
+      dict_center['linked_applications_type_b'] = i['linkBtypeAplyNocs']
+      dict_center['linked_applications_type_c'] = i['linkCtypeAplyNocs']
+      dict_center['linked_applications_type_d'] = i['linkDtypeAplyNocs']
+      dict_center['applications'] = i['aplyNocs']
+      dict_center['applications_type_a'] = i['atypeAplyNocs']
+      dict_center['applications_type_b'] = i['btypeAplyNocs']
+      dict_center['applications_type_c'] = i['ctypeAplyNocs']
+      dict_center['applications_type_d'] = i['dtypeAplyNocs']
       collection.insert_one(dict_center)
 # # sitters 리스트가 빈 경우 while 루프 종료
 # try :
