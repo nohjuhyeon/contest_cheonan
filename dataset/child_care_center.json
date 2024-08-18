@@ -1,0 +1,559 @@
+[{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10a8"
+  },
+  "date": "202001",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 192,
+  "part_time_caregivers": 183,
+  "full_time_infant_caregivers": 21,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 3,
+  "institution_linked_caregivers": 0
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10a9"
+  },
+  "date": "202002",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 202,
+  "part_time_caregivers": 193,
+  "full_time_infant_caregivers": 24,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 5,
+  "institution_linked_caregivers": 0
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10aa"
+  },
+  "date": "202003",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 203,
+  "part_time_caregivers": 195,
+  "full_time_infant_caregivers": 25,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 5,
+  "institution_linked_caregivers": 0
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10ab"
+  },
+  "date": "202004",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 204,
+  "part_time_caregivers": 197,
+  "full_time_infant_caregivers": 27,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 5,
+  "institution_linked_caregivers": 1
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10ac"
+  },
+  "date": "202005",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 205,
+  "part_time_caregivers": 199,
+  "full_time_infant_caregivers": 31,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 5,
+  "institution_linked_caregivers": 1
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10ad"
+  },
+  "date": "202006",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 208,
+  "part_time_caregivers": 203,
+  "full_time_infant_caregivers": 37,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 5,
+  "institution_linked_caregivers": 10
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10ae"
+  },
+  "date": "202007",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 208,
+  "part_time_caregivers": 203,
+  "full_time_infant_caregivers": 39,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 7,
+  "institution_linked_caregivers": 10
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10af"
+  },
+  "date": "202008",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 209,
+  "part_time_caregivers": 204,
+  "full_time_infant_caregivers": 39,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 9,
+  "institution_linked_caregivers": 12
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10b0"
+  },
+  "date": "202009",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 209,
+  "part_time_caregivers": 204,
+  "full_time_infant_caregivers": 40,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 11,
+  "institution_linked_caregivers": 12
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10b1"
+  },
+  "date": "202010",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 210,
+  "part_time_caregivers": 204,
+  "full_time_infant_caregivers": 42,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 12,
+  "institution_linked_caregivers": 13
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10b2"
+  },
+  "date": "202011",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 242,
+  "part_time_caregivers": 225,
+  "full_time_infant_caregivers": 44,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 12,
+  "institution_linked_caregivers": 22
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10b3"
+  },
+  "date": "202012",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 245,
+  "part_time_caregivers": 232,
+  "full_time_infant_caregivers": 45,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 12,
+  "institution_linked_caregivers": 26
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10b4"
+  },
+  "date": "202101",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 199,
+  "part_time_caregivers": 182,
+  "full_time_infant_caregivers": 23,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 1,
+  "institution_linked_caregivers": 6
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10b5"
+  },
+  "date": "202102",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 207,
+  "part_time_caregivers": 197,
+  "full_time_infant_caregivers": 28,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 1,
+  "institution_linked_caregivers": 6
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10b6"
+  },
+  "date": "202103",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 214,
+  "part_time_caregivers": 208,
+  "full_time_infant_caregivers": 30,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 1,
+  "institution_linked_caregivers": 8
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10b7"
+  },
+  "date": "202104",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 219,
+  "part_time_caregivers": 212,
+  "full_time_infant_caregivers": 32,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 3,
+  "institution_linked_caregivers": 11
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10b8"
+  },
+  "date": "202105",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 219,
+  "part_time_caregivers": 212,
+  "full_time_infant_caregivers": 32,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 6,
+  "institution_linked_caregivers": 12
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10b9"
+  },
+  "date": "202106",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 236,
+  "part_time_caregivers": 223,
+  "full_time_infant_caregivers": 34,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 7,
+  "institution_linked_caregivers": 17
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10ba"
+  },
+  "date": "202107",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 236,
+  "part_time_caregivers": 227,
+  "full_time_infant_caregivers": 34,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 8,
+  "institution_linked_caregivers": 19
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10bb"
+  },
+  "date": "202108",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 236,
+  "part_time_caregivers": 227,
+  "full_time_infant_caregivers": 34,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 10,
+  "institution_linked_caregivers": 19
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10bc"
+  },
+  "date": "202109",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 236,
+  "part_time_caregivers": 229,
+  "full_time_infant_caregivers": 34,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 12,
+  "institution_linked_caregivers": 20
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10bd"
+  },
+  "date": "202110",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 236,
+  "part_time_caregivers": 230,
+  "full_time_infant_caregivers": 34,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 15,
+  "institution_linked_caregivers": 21
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10be"
+  },
+  "date": "202111",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 236,
+  "part_time_caregivers": 230,
+  "full_time_infant_caregivers": 34,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 19,
+  "institution_linked_caregivers": 21
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10bf"
+  },
+  "date": "202112",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 236,
+  "part_time_caregivers": 230,
+  "full_time_infant_caregivers": 34,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 21,
+  "institution_linked_caregivers": 21
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10c0"
+  },
+  "date": "202201",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 202,
+  "part_time_caregivers": 193,
+  "full_time_infant_caregivers": 9,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 3,
+  "institution_linked_caregivers": 7
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10c1"
+  },
+  "date": "202202",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 205,
+  "part_time_caregivers": 199,
+  "full_time_infant_caregivers": 11,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 3,
+  "institution_linked_caregivers": 7
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10c2"
+  },
+  "date": "202203",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 206,
+  "part_time_caregivers": 203,
+  "full_time_infant_caregivers": 12,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 5,
+  "institution_linked_caregivers": 12
+},
+{
+  "_id": {
+    "$oid": "66bdea9072f7ae30fc4f10c3"
+  },
+  "date": "202204",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 206,
+  "part_time_caregivers": 204,
+  "full_time_infant_caregivers": 13,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 5,
+  "institution_linked_caregivers": 13
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10c4"
+  },
+  "date": "202205",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 211,
+  "part_time_caregivers": 205,
+  "full_time_infant_caregivers": 14,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 6,
+  "institution_linked_caregivers": 17
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10c5"
+  },
+  "date": "202206",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 233,
+  "part_time_caregivers": 221,
+  "full_time_infant_caregivers": 16,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 8,
+  "institution_linked_caregivers": 17
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10c6"
+  },
+  "date": "202207",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 238,
+  "part_time_caregivers": 228,
+  "full_time_infant_caregivers": 17,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 11,
+  "institution_linked_caregivers": 19
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10c7"
+  },
+  "date": "202208",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 238,
+  "part_time_caregivers": 231,
+  "full_time_infant_caregivers": 18,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 24,
+  "institution_linked_caregivers": 19
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10c8"
+  },
+  "date": "202209",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 238,
+  "part_time_caregivers": 231,
+  "full_time_infant_caregivers": 20,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 32,
+  "institution_linked_caregivers": 24
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10c9"
+  },
+  "date": "202210",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 238,
+  "part_time_caregivers": 232,
+  "full_time_infant_caregivers": 21,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 35,
+  "institution_linked_caregivers": 28
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10ca"
+  },
+  "date": "202211",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 238,
+  "part_time_caregivers": 234,
+  "full_time_infant_caregivers": 23,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 38,
+  "institution_linked_caregivers": 30
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10cb"
+  },
+  "date": "202212",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 238,
+  "part_time_caregivers": 234,
+  "full_time_infant_caregivers": 26,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 41,
+  "institution_linked_caregivers": 31
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10cc"
+  },
+  "date": "202301",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 218,
+  "part_time_caregivers": 212,
+  "full_time_infant_caregivers": 8,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 7,
+  "institution_linked_caregivers": 5
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10cd"
+  },
+  "date": "202302",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 230,
+  "part_time_caregivers": 226,
+  "full_time_infant_caregivers": 9,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 13,
+  "institution_linked_caregivers": 6
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10ce"
+  },
+  "date": "202303",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 232,
+  "part_time_caregivers": 229,
+  "full_time_infant_caregivers": 9,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 21,
+  "institution_linked_caregivers": 9
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10cf"
+  },
+  "date": "202304",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 233,
+  "part_time_caregivers": 231,
+  "full_time_infant_caregivers": 10,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 36,
+  "institution_linked_caregivers": 13
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10d0"
+  },
+  "date": "202305",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 234,
+  "part_time_caregivers": 231,
+  "full_time_infant_caregivers": 11,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 53,
+  "institution_linked_caregivers": 13
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10d1"
+  },
+  "date": "202306",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 235,
+  "part_time_caregivers": 232,
+  "full_time_infant_caregivers": 11,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 60,
+  "institution_linked_caregivers": 14
+},
+{
+  "_id": {
+    "$oid": "66bdea9172f7ae30fc4f10d2"
+  },
+  "date": "202307",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_caregivers": 235,
+  "part_time_caregivers": 232,
+  "full_time_infant_caregivers": 11,
+  "comprehensive_caregivers": 0,
+  "disease_child_caregivers": 65,
+  "institution_linked_caregivers": 20
+}]
