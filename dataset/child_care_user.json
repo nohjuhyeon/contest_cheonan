@@ -1,0 +1,688 @@
+[{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d62"
+  },
+  "date": "202001",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 4360,
+  "web_members": 113,
+  "pending_approval_members": 0,
+  "regular_members": 3909,
+  "periodic_regular_members": 338,
+  "pending_regular_members": 0,
+  "dormant_members": 0,
+  "new_members": 54,
+  "new_children": 122
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d63"
+  },
+  "date": "202002",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 4461,
+  "web_members": 176,
+  "pending_approval_members": 0,
+  "regular_members": 3911,
+  "periodic_regular_members": 374,
+  "pending_regular_members": 0,
+  "dormant_members": 0,
+  "new_members": 60,
+  "new_children": 110
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d64"
+  },
+  "date": "202003",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 4520,
+  "web_members": 213,
+  "pending_approval_members": 0,
+  "regular_members": 3899,
+  "periodic_regular_members": 408,
+  "pending_regular_members": 0,
+  "dormant_members": 0,
+  "new_members": 31,
+  "new_children": 60
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d65"
+  },
+  "date": "202004",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 4580,
+  "web_members": 260,
+  "pending_approval_members": 0,
+  "regular_members": 3885,
+  "periodic_regular_members": 429,
+  "pending_regular_members": 6,
+  "dormant_members": 0,
+  "new_members": 35,
+  "new_children": 80
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d66"
+  },
+  "date": "202005",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 4642,
+  "web_members": 302,
+  "pending_approval_members": 0,
+  "regular_members": 3862,
+  "periodic_regular_members": 469,
+  "pending_regular_members": 9,
+  "dormant_members": 0,
+  "new_members": 32,
+  "new_children": 74
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d67"
+  },
+  "date": "202006",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 4704,
+  "web_members": 336,
+  "pending_approval_members": 0,
+  "regular_members": 3850,
+  "periodic_regular_members": 516,
+  "pending_regular_members": 2,
+  "dormant_members": 0,
+  "new_members": 44,
+  "new_children": 90
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d68"
+  },
+  "date": "202007",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 4769,
+  "web_members": 373,
+  "pending_approval_members": 0,
+  "regular_members": 3840,
+  "periodic_regular_members": 554,
+  "pending_regular_members": 2,
+  "dormant_members": 0,
+  "new_members": 35,
+  "new_children": 67
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d69"
+  },
+  "date": "202008",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 4868,
+  "web_members": 450,
+  "pending_approval_members": 0,
+  "regular_members": 3830,
+  "periodic_regular_members": 585,
+  "pending_regular_members": 3,
+  "dormant_members": 0,
+  "new_members": 36,
+  "new_children": 78
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d6a"
+  },
+  "date": "202009",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 4937,
+  "web_members": 489,
+  "pending_approval_members": 0,
+  "regular_members": 3826,
+  "periodic_regular_members": 617,
+  "pending_regular_members": 5,
+  "dormant_members": 0,
+  "new_members": 41,
+  "new_children": 77
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d6b"
+  },
+  "date": "202010",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5012,
+  "web_members": 539,
+  "pending_approval_members": 0,
+  "regular_members": 3815,
+  "periodic_regular_members": 650,
+  "pending_regular_members": 8,
+  "dormant_members": 0,
+  "new_members": 38,
+  "new_children": 71
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d6c"
+  },
+  "date": "202011",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5065,
+  "web_members": 568,
+  "pending_approval_members": 0,
+  "regular_members": 3802,
+  "periodic_regular_members": 687,
+  "pending_regular_members": 8,
+  "dormant_members": 0,
+  "new_members": 28,
+  "new_children": 68
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d6d"
+  },
+  "date": "202012",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5088,
+  "web_members": 570,
+  "pending_approval_members": 0,
+  "regular_members": 3788,
+  "periodic_regular_members": 723,
+  "pending_regular_members": 7,
+  "dormant_members": 0,
+  "new_members": 43,
+  "new_children": 82
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d6e"
+  },
+  "date": "202101",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5139,
+  "web_members": 593,
+  "pending_approval_members": 0,
+  "regular_members": 3779,
+  "periodic_regular_members": 759,
+  "pending_regular_members": 8,
+  "dormant_members": 0,
+  "new_members": 53,
+  "new_children": 123
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d6f"
+  },
+  "date": "202102",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5158,
+  "web_members": 584,
+  "pending_approval_members": 0,
+  "regular_members": 3770,
+  "periodic_regular_members": 797,
+  "pending_regular_members": 7,
+  "dormant_members": 0,
+  "new_members": 41,
+  "new_children": 97
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d70"
+  },
+  "date": "202103",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5203,
+  "web_members": 595,
+  "pending_approval_members": 0,
+  "regular_members": 3760,
+  "periodic_regular_members": 835,
+  "pending_regular_members": 13,
+  "dormant_members": 0,
+  "new_members": 58,
+  "new_children": 77
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d71"
+  },
+  "date": "202104",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5261,
+  "web_members": 504,
+  "pending_approval_members": 0,
+  "regular_members": 3879,
+  "periodic_regular_members": 852,
+  "pending_regular_members": 26,
+  "dormant_members": 0,
+  "new_members": 40,
+  "new_children": 57
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d72"
+  },
+  "date": "202105",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5286,
+  "web_members": 513,
+  "pending_approval_members": 0,
+  "regular_members": 3876,
+  "periodic_regular_members": 863,
+  "pending_regular_members": 34,
+  "dormant_members": 0,
+  "new_members": 30,
+  "new_children": 42
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d73"
+  },
+  "date": "202106",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5327,
+  "web_members": 536,
+  "pending_approval_members": 0,
+  "regular_members": 3870,
+  "periodic_regular_members": 875,
+  "pending_regular_members": 46,
+  "dormant_members": 0,
+  "new_members": 42,
+  "new_children": 50
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d74"
+  },
+  "date": "202107",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5324,
+  "web_members": 508,
+  "pending_approval_members": 0,
+  "regular_members": 3863,
+  "periodic_regular_members": 896,
+  "pending_regular_members": 57,
+  "dormant_members": 0,
+  "new_members": 47,
+  "new_children": 66
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d75"
+  },
+  "date": "202108",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5357,
+  "web_members": 505,
+  "pending_approval_members": 0,
+  "regular_members": 3877,
+  "periodic_regular_members": 915,
+  "pending_regular_members": 60,
+  "dormant_members": 0,
+  "new_members": 28,
+  "new_children": 42
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d76"
+  },
+  "date": "202109",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5391,
+  "web_members": 479,
+  "pending_approval_members": 0,
+  "regular_members": 3903,
+  "periodic_regular_members": 935,
+  "pending_regular_members": 74,
+  "dormant_members": 0,
+  "new_members": 50,
+  "new_children": 73
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d77"
+  },
+  "date": "202110",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5439,
+  "web_members": 489,
+  "pending_approval_members": 0,
+  "regular_members": 3906,
+  "periodic_regular_members": 951,
+  "pending_regular_members": 93,
+  "dormant_members": 0,
+  "new_members": 55,
+  "new_children": 70
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d78"
+  },
+  "date": "202111",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5482,
+  "web_members": 494,
+  "pending_approval_members": 0,
+  "regular_members": 3901,
+  "periodic_regular_members": 963,
+  "pending_regular_members": 124,
+  "dormant_members": 0,
+  "new_members": 45,
+  "new_children": 70
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d79"
+  },
+  "date": "202112",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5544,
+  "web_members": 499,
+  "pending_approval_members": 0,
+  "regular_members": 3912,
+  "periodic_regular_members": 989,
+  "pending_regular_members": 144,
+  "dormant_members": 0,
+  "new_members": 60,
+  "new_children": 78
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d7a"
+  },
+  "date": "202201",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5612,
+  "web_members": 529,
+  "pending_approval_members": 0,
+  "regular_members": 3925,
+  "periodic_regular_members": 1003,
+  "pending_regular_members": 155,
+  "dormant_members": 0,
+  "new_members": 59,
+  "new_children": 77
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d7b"
+  },
+  "date": "202202",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5656,
+  "web_members": 529,
+  "pending_approval_members": 0,
+  "regular_members": 3930,
+  "periodic_regular_members": 1019,
+  "pending_regular_members": 178,
+  "dormant_members": 0,
+  "new_members": 61,
+  "new_children": 83
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d7c"
+  },
+  "date": "202203",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5683,
+  "web_members": 514,
+  "pending_approval_members": 0,
+  "regular_members": 3940,
+  "periodic_regular_members": 1053,
+  "pending_regular_members": 176,
+  "dormant_members": 0,
+  "new_members": 49,
+  "new_children": 56
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d7d"
+  },
+  "date": "202204",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5744,
+  "web_members": 540,
+  "pending_approval_members": 0,
+  "regular_members": 3943,
+  "periodic_regular_members": 1067,
+  "pending_regular_members": 194,
+  "dormant_members": 0,
+  "new_members": 39,
+  "new_children": 56
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d7e"
+  },
+  "date": "202205",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5777,
+  "web_members": 540,
+  "pending_approval_members": 0,
+  "regular_members": 3943,
+  "periodic_regular_members": 1089,
+  "pending_regular_members": 205,
+  "dormant_members": 0,
+  "new_members": 44,
+  "new_children": 68
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d7f"
+  },
+  "date": "202206",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5836,
+  "web_members": 550,
+  "pending_approval_members": 0,
+  "regular_members": 3955,
+  "periodic_regular_members": 1111,
+  "pending_regular_members": 220,
+  "dormant_members": 0,
+  "new_members": 61,
+  "new_children": 79
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d80"
+  },
+  "date": "202207",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5914,
+  "web_members": 556,
+  "pending_approval_members": 0,
+  "regular_members": 3981,
+  "periodic_regular_members": 1144,
+  "pending_regular_members": 233,
+  "dormant_members": 0,
+  "new_members": 73,
+  "new_children": 100
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d81"
+  },
+  "date": "202208",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 5976,
+  "web_members": 570,
+  "pending_approval_members": 0,
+  "regular_members": 3988,
+  "periodic_regular_members": 1167,
+  "pending_regular_members": 251,
+  "dormant_members": 0,
+  "new_members": 53,
+  "new_children": 69
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d82"
+  },
+  "date": "202209",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 6004,
+  "web_members": 557,
+  "pending_approval_members": 0,
+  "regular_members": 3995,
+  "periodic_regular_members": 1188,
+  "pending_regular_members": 264,
+  "dormant_members": 0,
+  "new_members": 45,
+  "new_children": 55
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d83"
+  },
+  "date": "202210",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 6060,
+  "web_members": 559,
+  "pending_approval_members": 0,
+  "regular_members": 4010,
+  "periodic_regular_members": 1211,
+  "pending_regular_members": 280,
+  "dormant_members": 0,
+  "new_members": 57,
+  "new_children": 86
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d84"
+  },
+  "date": "202211",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 6101,
+  "web_members": 554,
+  "pending_approval_members": 0,
+  "regular_members": 4022,
+  "periodic_regular_members": 1231,
+  "pending_regular_members": 294,
+  "dormant_members": 0,
+  "new_members": 58,
+  "new_children": 73
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d85"
+  },
+  "date": "202212",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 6168,
+  "web_members": 574,
+  "pending_approval_members": 0,
+  "regular_members": 4035,
+  "periodic_regular_members": 1249,
+  "pending_regular_members": 310,
+  "dormant_members": 0,
+  "new_members": 54,
+  "new_children": 69
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d86"
+  },
+  "date": "202301",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 6215,
+  "web_members": 569,
+  "pending_approval_members": 0,
+  "regular_members": 4045,
+  "periodic_regular_members": 1267,
+  "pending_regular_members": 334,
+  "dormant_members": 0,
+  "new_members": 69,
+  "new_children": 93
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d87"
+  },
+  "date": "202302",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 6290,
+  "web_members": 574,
+  "pending_approval_members": 0,
+  "regular_members": 4051,
+  "periodic_regular_members": 1302,
+  "pending_regular_members": 363,
+  "dormant_members": 0,
+  "new_members": 79,
+  "new_children": 99
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d88"
+  },
+  "date": "202303",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 6347,
+  "web_members": 588,
+  "pending_approval_members": 0,
+  "regular_members": 4059,
+  "periodic_regular_members": 1322,
+  "pending_regular_members": 378,
+  "dormant_members": 0,
+  "new_members": 52,
+  "new_children": 71
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d89"
+  },
+  "date": "202304",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 6369,
+  "web_members": 570,
+  "pending_approval_members": 0,
+  "regular_members": 4070,
+  "periodic_regular_members": 1340,
+  "pending_regular_members": 389,
+  "dormant_members": 0,
+  "new_members": 56,
+  "new_children": 75
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d8a"
+  },
+  "date": "202305",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 6419,
+  "web_members": 570,
+  "pending_approval_members": 0,
+  "regular_members": 4090,
+  "periodic_regular_members": 1360,
+  "pending_regular_members": 399,
+  "dormant_members": 0,
+  "new_members": 58,
+  "new_children": 74
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d8b"
+  },
+  "date": "202306",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 6439,
+  "web_members": 551,
+  "pending_approval_members": 0,
+  "regular_members": 4095,
+  "periodic_regular_members": 1372,
+  "pending_regular_members": 421,
+  "dormant_members": 0,
+  "new_members": 43,
+  "new_children": 60
+},
+{
+  "_id": {
+    "$oid": "66bdeb512cde735076a38d8c"
+  },
+  "date": "202307",
+  "center_name": "충남 천안시 건강가정지원센터",
+  "total_members": 6484,
+  "web_members": 545,
+  "pending_approval_members": 0,
+  "regular_members": 4109,
+  "periodic_regular_members": 1388,
+  "pending_regular_members": 442,
+  "dormant_members": 0,
+  "new_members": 59,
+  "new_children": 81
+}]
