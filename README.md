@@ -1,6 +1,6 @@
 # contest_cheonan
 
-## Project Overview(프로젝트 개요)
+## 📋 Project Overview(프로젝트 개요)
 |category|contents|
 |--|--|
 |대주제|출산/육아|
@@ -9,7 +9,7 @@
 |분석방향|천안시 출산율 비교(전국 대비 충남, 충남 각 시별 비교)|
 |제안방향|아이돌봄 서비스 개선을 통한 출산율 상승|
 
-## Dataset(데이터셋)
+## 📚 Dataset(데이터셋)
 
 |type|name|
 |--|--|
@@ -25,12 +25,41 @@
 |API|맘시터, 시터정보|
 
 
-## Methodology(분석 방법)
+## 🧪 Methodology(분석 방법)
+내용 수정 필요
+1. 데이터 수집 및 전처리
+  - 공공데이터, 보고서, 웹 크롤링, API 등을 통해 데이터 수집
+  - 결측치 처리, 이상치 제거 등 데이터 정제
+2. 천안시 출산율 비교 분석
+  - 전국 대비 충남, 충남 각 시별 출산율 추이 분석
+  - 시계열 분석을 통한 출산율 변화 패턴 파악
+3. 아이돌봄 서비스 현황 분석
+  - 천안시 아이돌봄 서비스 이용 현황 및 만족도 조사
+  - 타 지역 아이돌봄 서비스와의 비교 분석
+4. 출산율과 아이돌봄 서비스 간 상관관계 분석
+  - 회귀분석을 통한 아이돌봄 서비스가 출산율에 미치는 영향 파악
+5. 텍스트마이닝
+  - 맘카페 등 온라인 커뮤니티 데이터를 활용한 아이돌봄 서비스 요구사항 니즈 파악
 
-## Results(결과)
+## 📊 Results(결과)
 
-## Conclusion(결론)
+## 📌 Conclusion(결론)
 
-## Tech Stack(기술 스택)
+## 🔧 Tech Stack(기술 스택)
 
-## Directory Structure(파일 구조)
+|<center>VScode</center>|
+|--|
+|<p align="center"><img alt="vscode" src="./icons/VSCode-Light.svg" width="48"></p>|
+|<img src="https://img.shields.io/badge/visual studio code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">|
+
+## 📂 Directory Structure(파일 구조)
+
+```markdown
+contest_cheonan/
+├── 
+│   ├── 
+│   ├── 
+│   └── 
+└── 
+
+```
