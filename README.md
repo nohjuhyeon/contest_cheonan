@@ -1,4 +1,4 @@
-# contest_cheonan
+# contest_cheonan 🏆
 
 ## 📋 Project Overview(프로젝트 개요)
 |category|contents|
